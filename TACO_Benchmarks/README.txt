@@ -7,6 +7,3 @@ This is a slightly updated version of the TACO paper.
 	  either from the script or by exporting HPARAMS (cap LLC size at 8MB, same as the default), 		  set (export) HL_NUM_THREADS to number of cores
 
 
-Notes:
-	1. there seems to be a weird thing when building Halide in this version where the Halide.h 		   file contains a typo in line 29679 where an #endif#ifdef has to be separated 	   		   manually with a newline before make distrib. 
-	
